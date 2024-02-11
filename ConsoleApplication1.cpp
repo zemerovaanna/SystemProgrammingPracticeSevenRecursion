@@ -1,10 +1,12 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 int Сount(int n, int u, int count)
 {
     if (n > u)
     {
+        cout << count + 1 << ". ";
+        cout << n << "+" << u << endl;
         n = n - 1;
         u = u + 1;
         count = count + 1;
